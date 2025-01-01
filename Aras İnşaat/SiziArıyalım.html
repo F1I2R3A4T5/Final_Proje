@@ -1,0 +1,67 @@
+﻿<!DOCTYPE html>
+<html lang="tr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sizi Arayalım</title>
+    <header>
+        <img src="images/logo.png" alt="Logo" class="logo">
+    </header>
+    <link rel="stylesheet" href="css/SiziArıyalım.css">
+
+</head>
+<body>
+    <div class="form-container">
+        <h1><span class="highlight">SİZİ</span> ARAYALIM</h1>
+        <form action="#" method="post">
+            <label for="name">Ad-Soyad *</label>
+            <input type="text" id="name" name="name" placeholder="Ad-Soyad giriniz" required>
+
+            <label for="phone">Telefon numarası *</label>
+            <input type="tel" id="phone" name="phone" placeholder="Telefon numaranızı giriniz" required>
+
+            <label for="email">E-Posta *</label>
+            <input type="email" id="email" name="email" placeholder="E-posta adresinizi giriniz" required>
+
+            <label for="project">İlgilendiğiniz Projemiz</label>
+            <select id="project" name="project">
+                <option value="high-hill">High Hill İncek</option>
+                <option value="other">Diğer</option>
+            </select>
+
+            <label for="message">Mesaj</label>
+            <textarea id="message" name="message" placeholder="Lütfen mesajınızı giriniz."></textarea>
+
+            <div class="checkbox-group">
+                <label>
+                    <input type="checkbox" required>
+                    <span class="red">KVKK Aydınlatma Metnini</span> okudum, onaylıyorum.
+                </label>
+                <label>
+                    <input type="checkbox">
+                    Kampanyalardan haberdar olmak için tarafıma elektronik ileti gönderilmesini kabul ederim.
+                </label>
+            </div>
+
+            <button type="submit">Gönder</button>
+        </form>
+    </div>
+
+  
+
+    <footer>
+        <p>&copy; 2025 Tüm Hakları Saklıdır.&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</p>
+        <p><a href="https://www.instagram.com/faras.ofis/" target="_blank">İnstagram</a></p>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+        <p>Twitter</p>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+        <p>Linkedn</p>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+    </footer>
+
+    <div class="map-container">
+        <<iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3058.147890987927!2d32.771517111267826!3d39.96044607139781!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x14d34929d53f5dfb%3A0xa036ac4d5235d005!2sFaras%20Ofis!5e0!3m2!1str!2str!4v1734894047305!5m2!1str!2str" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>"
+                allowfullscreen=""
+                loading="lazy"
+                referrerpolicy="no-referrer-when-downgrade">
+        </iframe>
+    </div>
+</body>
+</html>
